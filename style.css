@@ -235,8 +235,67 @@ body {
   width: 88%;
   margin: 50px auto;
 }
-.product-container{
+.product-container {
 }
-.product{
-    padding: 10px;
+.product {
+  padding: 10px;
+}
+
+/* subscribe banner */
+.subscribe-container {
+  text-align: center;
+  align-items: center;
+  background: rgba(255, 0, 0, 0.05);
+  width: 88%;
+  margin: 50px auto;
+}
+.subscribe-container img {
+  margin-top: 100px;
+}
+.subscribe-container h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.subscribe-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+.input-container {
+  width: 40%;
+  margin: 30px auto;
+  display: flex;
+}
+.input-container input {
+  padding: 20px 30px;
+  margin-bottom: 70px;
+  border: none;
+}
+.input-container input[type="email"] {
+  width: 70%;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  background-color: white;
+
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+}
+.input-container input[type="submit"] {
+  width: 30%;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  background-color: #f00;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.input-container input[type="submit"]:hover {
+    background-color: rgb(255, 0, 106);
 }
