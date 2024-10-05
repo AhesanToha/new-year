@@ -1,0 +1,26 @@
+/* common shared styles */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.banner  {
+  background-image: url("resources/banner.png");
+  margin: 50px auto;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 88%;
+}
+
+.banner-title {
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  padding-top: 170px;
+}
+.banner-name {
+  font-size: 72px;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+}
