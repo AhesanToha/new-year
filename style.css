@@ -211,3 +211,23 @@ body {
   margin: 0 auto;
   line-height: 32px;
 }
+
+/* discount banner styles */
+.discount-banner-container {
+  background-image: url("resources/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  width: 88%;
+  margin: 50px auto;
+}
+
+
+.item-container {
+  display: flex;
+}
+.discount-fifty {
+  position: absolute;
+  right: 500px;
+
+}
