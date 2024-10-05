@@ -222,12 +222,21 @@ body {
   margin: 50px auto;
 }
 
-
 .item-container {
   display: flex;
 }
 .discount-fifty {
   position: absolute;
   right: 500px;
+}
 
+/* Awesome porfolio section styles */
+.portfolio-container {
+  width: 88%;
+  margin: 50px auto;
+}
+.product-container{
+}
+.product{
+    padding: 10px;
 }
